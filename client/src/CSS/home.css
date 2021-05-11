@@ -1,0 +1,38 @@
+.home-box{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    /* width: 600px;
+    padding: 40px; */
+    width: 50%;
+    transform: translate(-50%, -90%);
+    background: rgba(0,0,0,.5);
+    box-sizing: border-box;
+    box-shadow: 0 15px 25px rgba(0,0,0,.6);
+    border-radius: 10px;
+}
+
+.text-primary{
+    color: #03e9f4; 
+}
+
+.text-sec{
+   color: #0D6EC4!important
+}
+
+
+@media screen and (max-width: 480px) {
+    .home-box{
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        /* width: 600px;
+        padding: 40px; */
+        width: 90%;
+        transform: translate(-50%, -50%);
+        background: rgba(0,0,0,.5);
+        box-sizing: border-box;
+        box-shadow: 0 15px 25px rgba(0,0,0,.6);
+        border-radius: 10px;
+    }
+  }
